@@ -1,0 +1,83 @@
+main{
+    background-color: #8ecae6;
+}
+.Title{
+    width: 100%;
+    text-align: center;
+    padding: 100px;
+    color: black;
+    background: linear-gradient(to left, #264653, #2a9d8f 100%);
+}
+.Title h1{
+    font-size: 200px;
+}
+
+nav{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.FishingRod{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.FishingRod-container{
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    text-align: start;
+    border: #457b9d solid 3px ;
+    border-radius: 10px;
+    background-color: #457b9d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.FishImg{
+    border-radius: 10px 10px 0px 0px;
+    height: 30%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.FishingRod-container .Fish-p{
+    padding: 5px;
+}
+
+
+/*------------------------------*/
+
+.footer{
+    background-color: #f4a261;
+    width: 100vw;
+    height:100vh;
+    position: relative;
+    z-index: 2;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer-title{
+    padding: 25px 100px 20px 50px;
+    width: 100%;
+    color: var(--color-white);
+}
+.footer-title h1{
+    font-size: 120px;
+}
+
+.Text-p{
+    width: 100%;
+    font-size: larger;
+    padding: 20px 50px 20px 50px;
+    color: var(--color-white);
+    align-items: center;
+}
